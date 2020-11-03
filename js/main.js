@@ -6,11 +6,11 @@ $(document).ready(function () {
   mMenuBtn.click(function () {
     if (mMenu.is(':visible')) {
       mMenu.slideToggle(600);
-      mMenuBtnImg.css('content', "url('./../img/svg/burger.svg')");
+      mMenuBtnImg.css('content', "url('./img/svg/burger.svg')");
     }
     else {
       mMenu.slideToggle(600);
-      mMenuBtnImg.css('content', "url('./../img/svg/close-m-menu.svg')");
+      mMenuBtnImg.css('content', "url('./img/svg/close-m-menu.svg')");
     }
   });
 });

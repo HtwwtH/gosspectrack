@@ -113,7 +113,7 @@ a{
 }
 
 .service-card .digit{
-  position: absolute;
+  position: relative;
   color: rgba(252, 0, 0, 0.25);
   font-weight: 700;
   font-size: 72px;
@@ -121,9 +121,9 @@ a{
 }
 
 .service-card .info{
-  position: absolute;
+  position: relative;
   left: 19px;
-  top: 61px;
+  top: -38px;
   }
 
 .service-card .title{
@@ -381,7 +381,7 @@ a{
 .services__topgroup{
   display: flex;
   max-width: 508px;
-  margin-bottom: 110px;
+  margin-bottom: 5px;
 }
 
 .services__topgroup .service-card{
@@ -445,9 +445,9 @@ a{
 }
 
 .offer__items .service-card .info {
-    position: absolute;
-    left: 45px;
-    top: 67px;
+  position: relative;
+  left: 45px;
+  top: -44px;
 }
 
 .offer__items .service-card .digit{
@@ -555,9 +555,41 @@ line-height: 19px;
 .footer__grid{
   background-color: #120C5A;
   display: grid;
+  display: -ms-grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr;
   grid-gap: 2vw;
 }
+
+/* IE Explorer grid */
+.cell:nth-child(1) {
+	-ms-grid-column: 1;
+	-ms-grid-row: 1;
+}
+.cell:nth-child(2) {
+	-ms-grid-column: 2;
+	-ms-grid-row: 1;
+}
+.cell:nth-child(3) {
+	-ms-grid-column: 3;
+	-ms-grid-row: 1;
+}
+
+.cell:nth-child(4) {
+	-ms-grid-column: 4;
+	-ms-grid-row: 1;
+}
+
+/* 
+.footer__grid{
+  background-color: #120C5A;
+  display: -ms-grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2vw;
+  -ms-grid-gap: 2vw;
+} */
 
 .footer__grid h1 {
   font-size: 24px;

@@ -1,8 +1,8 @@
-.error500{
+.error500, .error404{
   margin: 102px 0 102px;
 }
 
-.error500__content{
+.error500__content, .error404__content{
   position: relative;
 }
 
@@ -16,7 +16,11 @@
   z-index: -5;
 }
 
-.error500__image{
+.error404__content .bg-gray-rectangle{
+  width: 48.43%;
+}
+
+.error500__image, .error404__image{
   width: 48%;
   position: absolute;
   height: 424px;
@@ -25,13 +29,28 @@
   z-index: -5;
 }
 
-.error500__message-block{
+.error500__image, .error404__image {
+  width: 60%;
+  height: 437px;
+  left: -41px;
+}
+
+.error500__image img, .error404__image img{
+  width: 100%;
+}
+
+.error500__message-block, .error404__message-block{
   z-index: 10;
   margin-left: 644px;
   max-width: 524px;
 }
 
-.error500__message-block h1{
+.error404__message-block {
+  margin-left: 67%;
+  max-width: 356px;
+}
+
+.error500__message-block h1, .error404__message-block h1{
   color: #120C5A;
   font-size: 70px;
   line-height: 84px;
@@ -41,10 +60,18 @@
   margin-bottom: 44px;
 }
 
+.error404__message-block h1{
+  font-size: 65px;
+}
+
+.error404__message-block .message-block__title{
+  margin-bottom: 26px;
+}
+
 .message-block__description{
   margin-bottom: 38px;
 }
 
-.error500__button{
+.error500__button, .error404__button{
   width: 275px;
 }
