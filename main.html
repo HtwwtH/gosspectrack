@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <title>Gosspectrack</title>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <!-- Синяя шапка -->
+    <div class="header__topline">
+      <div class="container">
+        <div class="topline-items">
+          <div class="mobile-logo">
+            <!-- Уменьшенное лого - мобильная версия -->
+            <img src="img/svg/mobile_logo.svg" alt="">
+          </div>
+          <h2 class="geo">Красноярск</h2>
+          <h3 class="mail">info@gosspec.ru</h3>
+          <h3>+7 (391) 219‒99‒80</h3>
+          <form class="search">
+            <input type="text" placeholder="Поиск">
+            <button type="submit"></button>
+          </form>
+          <div class="mobile-search">
+            <!-- Лого лупа - мобильная версия -->
+            <button><img src="img/svg/search_icon.svg" alt=""></button>
+          </div>
+          <div>
+            <!-- Лого меню бургер - мобильная версия -->
+            <button class="mobile-burger"><img src="" alt=""></button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Выпадающее мобильное меню -->
+    <div class="m-menu">
+      <div class="m-menu__content">
+        <div class="m-menu__info">
+          <h2 class="geo">Красноярск</h2>
+          <h3 class="mail">info@gosspec.ru</h3>
+        </div>
+
+        <nav class="m-menu__navigation">
+          <a href="#" class="navigation-link">Спецтехника</a>
+          <a href="#" class="navigation-link">Запчасти</a>
+          <a href="#" class="navigation-link">Контакты</a>
+        </nav>
+      </div>
+
+
+      <div class="">
+        <button class="m-menu__button red-button">получить консультацию</button>
+      </div>
+    </div>
+    <!-- Конец Выпадающего мобильного меню -->
+
+    <div class="header__nav">
+      <div class="container">
+        <div class="navline-items">
+          <div class="header__logo">
+            <img src="img/svg/logo.svg" alt="">
+          </div>
+
+          <!-- Навигация -->
+
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#" class="nav-link dropdown">Спецтехника</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link dropdown">Запчасти</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Контакты</a>
+            </li>
+          </ul>
+
+          <button class="nav__button red-button">скачать прайс-лист</button>
+        </div>
+      </div>
+    </div>
+
+  </header>
+  <!-- End of Header -->
+
+  <!-- Main screen -->
+  <section class="main">
+    <div class="container">
+
+      <div class="main__bg-red-rect"></div>
+
+      <!-- <picture class="main__image">
+        <source srcset="img/d39bca7cf8ad4f7c59099b42798ecac1.webp" type="image/webp">
+        <source srcset="img/d39bca7cf8ad4f7c59099b42798ecac1.png" type="image/png">
+        <img src="img/d39bca7cf8ad4f7c59099b42798ecac1.png" alt="image" />
+      </picture> -->
+      <div class="main__image">
+        <img src="img/d39bca7cf8ad4f7c59099b42798ecac1.png" alt="image" />
+      </div>
+
+      <h1 class="main__title">Продажа спецтехники и запчастей<br />от официального диллера
+        <strong>DAEWOO</strong><br />в Красноярске</h1>
+
+      <button class="m-main__button red-button">получить консультацию</button>
+
+      <!-- карточки направлений деятельности -->
+      <div class="main__services">
+        <!-- верхняя группа карточек -->
+        <div class="services__topgroup">
+          <div class="service-card">
+            <div class="digit">01</div>
+            <div class="info">
+              <div class="title">Официальный дилер DAEWOO</div>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="digit">02</div>
+            <div class="info">
+              <div class="title">Продажа бетононасосов</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- нижняя группа карточек (там 1шт) -->
+        <div class="services__bottomgroup">
+          <div class="service-card">
+            <div class="digit">03</div>
+            <div class="info">
+              <div class="title">Продажа запчастей для Корейских грузовиков и бетононасосов</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div><button class="main__button red-button">скачать прайс-лист</button></div>
+
+    </div>
+  </section>
+
+  <!-- End of Main screen -->
+
+  <!-- Vehickles -->
+  <section class="vehickles">
+    <div class="container">
+      <div class="vehickles__items">
+        <div class="vehickles__card">
+          <a><img src="/img/бетононасосы.png" alt=""></a>
+        </div>
+        <div class="vehickles__card">
+          <a><img src="/img/грузовые-авто.png" alt=""></a>
+        </div>
+        <div class="vehickles__card">
+          <a><img src="/img/запчасти-для-бетононаса.png" alt=""></a>
+        </div>
+        <div class="vehickles__card">
+          <a><img src="/img/запчасти-все.png" alt=""></a>
+        </div>
+      </div>
+  </section>
+  <!-- End of Vehickles -->
+
+  <!-- Offer -->
+  <section class="offer">
+    <div class="container">
+      <div class="offer__title">
+        <h2>Услуги</h2>
+      </div>
+
+      <div class="offer__items">
+        <div class="service-card">
+          <div class="digit">01</div>
+          <div class="info">
+            <div class="title">Доставка в любой регион России</div>
+            <div class="description">Доставку спецтехники в любой регион России любым способом, удобным заказчику; а
+              для
+              доставки «своим ходом» в штате
+              компании есть водители, которые «перегнали» не один автомобиль.</div>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="digit">02</div>
+          <div class="info">
+            <div class="title">Техническое обслуживание</div>
+            <div class="description">Техническое обслуживание спецтехники и автоспецтехники в нескольких городах
+              России.
+            </div>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="digit">03</div>
+          <div class="info">
+            <div class="title">Сервисное обслуживание</div>
+            <div class="description">Сервисное обслуживание автобетононасосов и стационарных бетононасосов, возможен
+              выезд специалиста к клиенту в любую
+              точку России и СНГ</div>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="digit">04</div>
+          <div class="info">
+            <div class="title">Спецтехника под заказ</div>
+            <div class="description">Если не нашли на сайте подходящую технику или запасную часть, мы закажем ее для
+              вас
+              у поставщиков.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Offer -->
+
+  <!-- Company -->
+  <section class="company">
+    <div class="container">
+
+      <div class="company__trailer">
+        <img src="img/trailer.png" alt="Poster" class="trailer-poster" />
+        <a data-fancybox href="https://www.youtube.com/watch?v=96uYyEYu3N8" class="trailer-button">
+          <img class="trailer-button-icon" src="img/svg/play_trailer.svg" alt="play" />
+        </a>
+      </div>
+
+      <div class="company__topblock">
+        <div class="company__title">
+          <h2>О компании</h2>
+        </div>
+      </div>
+
+      <div class="company__bottomblock">
+        <div class="company__description">
+          <p><strong>ГосСпецТрак</strong> - официальное представительство компании ГосСпецАвто на территории
+            Красноярского края.<br />
+            Мы реализуем технику марок Hyindai и Daewoo как новую, так и б/у, производим качественное обслуживание и
+            подбор
+            запчастей.<br />
+            Так же наша компания является профессианалами в сфере бетононасосав, занимаясь их продажей, подбором и
+            продажей
+            запчастей для них и ремонтом.
+            <br /><br /><br />
+
+            <small>*ГосСпецАвто - официальное представительство марки (DAEWOO) на территории Российской
+              Федерации.</small>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Company -->
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__items">
+        <div class="footer__logo">
+          <a><img src="img/svg/white-logo.svg" alt=""></a>
+        </div>
+
+        <div class="footer__grid">
+          <div class="footer__info">
+            <h2>График работы:</h2>
+            <p>ПН-ПТ с 09:00 до 19:00<br />
+              По Красноярскому времени</p><br /><br />
+
+            <h2>Адрес:</h2>
+            <p>Россия, г. Красноярск,<br /> пр.Металлургов, 1М, стр.3,<br /> оф.2-19
+            </p><br /><br />
+
+            <h2>Наш телефон:</h2>
+            <p>+7 (000) 009-00-08</p><br /><br />
+
+            <h2>Наша почта:</h2>
+            <p>zaiavka@mail.com</p>
+          </div>
+
+          <div class="footer__categories">
+            <div>
+              <h1>Категории</h1>
+              <p><a href="#">Грузовые автомобили</a></p>
+              <p><a href="#">Бетононасосы</a></p>
+              <p><a href="#">Запчасти для бетононасосов</a></p>
+              <p class="mrb43"><a href="#">Запчасти для грузовиков и спецтехники</a></p>
+            </div>
+
+
+            <h1>Услуги</h1>
+            <p><a href="#">Сервис и гарантия</a></p>
+            <p><a href="#">Доставка</a></p>
+            <p><a href="#">Ремонт</a></p>
+          </div>
+
+          <div class="footer__support">
+            <h1>Служба поддержки</h1>
+            <p><a href="#">О нас</a></p>
+            <p><a href="#">Контакты</a></p>
+            <p><a href="#">Карта сайта</a></p>
+            <p><a href="#">Политика конфиденциальности</a></p>
+            <p><a href="#">Скачать реквизиты</a></p>
+          </div>
+
+          <div class="footer__addition">
+            <p class="mrb43">Данная информация<br />не является публичной офертой и несет справочный характер</p>
+            <h3>Разработка сайта:</h3>
+            <img class="mrb160" src="img/svg/engineers-logo.svg" alt="">
+            <p>© 2020 «Все права защищены</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </footer>
+  <!-- End of Footer -->
+
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+.error500{
+  margin: 102px 0 102px;
+}
+
+.error500__content{
+  position: relative;
+}
+
+.bg-gray-rectangle{
+  position: absolute;
+  width: 58.43%;
+  height: 316px;
+  right: -96px;
+  top: 46px;
+  background-color: #F6F6F6;
+  z-index: -5;
+}
+
+.error500__image{
+  width: 48%;
+  position: absolute;
+  height: 424px;
+  left: -96px;
+  top: -12px;
+  z-index: -5;
+}
+
+.error500__message-block{
+  z-index: 10;
+  margin-left: 644px;
+  max-width: 524px;
+}
+
+.error500__message-block h1{
+  color: #120C5A;
+  font-size: 70px;
+  line-height: 84px;
+}
+
+.message-block__title{
+  margin-bottom: 44px;
+}
+
+.message-block__description{
+  margin-bottom: 38px;
+}
+
+.error500__button{
+  width: 275px;
+}
