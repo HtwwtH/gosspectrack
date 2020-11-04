@@ -82,6 +82,36 @@ a{
   transition: background-color .2s ease-in-out;
 }
 
+.blue-button{
+  background-color: #120C5A;
+  color: #fff;
+  border: 1px solid #120C5A;
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 18px 39px;
+  -webkit-transition: background-color .2s ease-in-out;
+  -moz-transition: background-color .2s ease-in-out;
+  -o-transition: background-color .2s ease-in-out;
+  transition: background-color .2s ease-in-out;
+}
+
+.blue-button:hover{
+  background-color: #fff;
+  color: #120C5A;
+  -webkit-transition: background-color .2s ease-in-out;
+  -moz-transition: background-color .2s ease-in-out;
+  transition: background-color .2s ease-in-out;
+  transition: background-color .2s ease-in-out;
+}
+
+.blue-button:active{
+  background-color: red;
+  color: #fff;
+  border: none;
+}
+
 .dropdown{
   color: #120C5A;
 }
@@ -581,16 +611,6 @@ line-height: 19px;
 	-ms-grid-row: 1;
 }
 
-/* 
-.footer__grid{
-  background-color: #120C5A;
-  display: -ms-grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  -ms-grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 2vw;
-  -ms-grid-gap: 2vw;
-} */
-
 .footer__grid h1 {
   font-size: 24px;
   font-weight: 700;
@@ -631,4 +651,90 @@ line-height: 19px;
 }
 .mrb160{
   margin-bottom: 160px;
+}
+
+/* Cookies */
+.cookies{
+  position: fixed;
+  bottom: -100%;
+  width: 434px;
+  background-color: #F5F5F5;
+  padding: 24px;
+  transition: 400ms;
+}
+
+.cookies_active{
+  bottom: 0;
+}
+
+.cookies .message{
+  margin-bottom: 24px;
+}
+
+.cookies p{
+  font-size: 16px;
+  line-height: 22px;
+  color: #120C5A;
+}
+
+.cookies a{
+  text-decoration: underline;
+  color: #120C5A;
+}
+
+.cookies__button{
+  text-align: center;
+}
+
+.cookies__button button{
+  width: 264px;
+}
+
+/* Accepted (приняли заявку) */
+.accepted .bg-gray-rectangle{
+  display: none;
+}
+
+.accepted__image{
+  z-index: -5;
+  max-width: 1221px;
+  margin: 122px auto 98px;
+}
+
+.accepted__image img{
+  width: 100%;
+}
+
+.accepted__message-block{
+  position: absolute;
+  left: 32.2828%;
+  top: 44px;
+}
+
+.accepted__message-block h1{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
+}
+
+.accepted__message-block p{
+  color: #161616;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.accepted__message-block .message-block__title{
+  margin-bottom: 3px;
+}
+
+.accepted__message-block .message-block__description{
+  margin-bottom: 32px;
+}
+
+.accepted__button{
+  width: 289px;
+}
+.accepted__button button{
+  width: 289px;
 }

@@ -46,6 +46,27 @@
     font-size: 60px;
   }
 
+  /* Accepted (приняли заявку) */
+  .accepted__message-block h1{
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .accepted__message-block p{
+    font-size: 16px;
+    line-height: 18px;
+    color: #120C5A;
+  }
+
+  .accepted__message-block .message-block__title{
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  .accepted__message-block .message-block__description{
+    margin-bottom: 30px;
+  }
+
 }
 
 /* 768-1070px */
@@ -144,6 +165,33 @@
   .error404__message-block h1{
     font-size: 45px;
   }
+
+  /* Accepted (приняли заявку) */
+  .accepted__message-block{
+    top: 25px;
+  }
+
+
+  .accepted__message-block h1{
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .accepted__message-block p{
+    font-size: 16px;
+    line-height: 18px;
+    color: #120C5A;
+  }
+
+  .accepted__message-block .message-block__title{
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .accepted__message-block .message-block__description{
+    margin-bottom: 10px;
+  }
+  
 }
 
 /* До 768px */
@@ -317,6 +365,65 @@ line-height: 19px;
     height: 100%;
   }
 
+  /* Cookies */
+.cookies{
+  width: 320px;
+  background-color: #F5F5F5;
+  padding: 0;
+}
+
+.cookies .message{
+  margin-bottom: 0;
+  padding: 16px;
+}
+
+.cookies p{
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.cookies__button{
+  padding-bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.cookies__button button{
+  width: 100%;
+}
+
+/* Accepted (приняли заявку) */
+  .accepted .bg-gray-rectangle{
+    display: none;
+    width: 284px;
+    height: 228px;
+    top: 120px;
+  }
+
+  .accepted__image{
+    margin: 155px auto 50px;
+  }
+
+  .accepted__message-block{
+    position: relative;
+    left: 36px;
+    top: 0;
+    margin-bottom: 68px;
+    width: 83.93%;
+  }
+
+  
+
+  .accepted__button{
+    position: unset;
+    width: 275px;
+    left: -38px;
+  }
+  .accepted__button button{
+    width: 275px;
+  }
+}
+
 /* Мобильная версия 320-568px */
 @media (max-width: 568px){
   ::-webkit-scrollbar {
@@ -450,6 +557,7 @@ line-height: 19px;
 }
 
 
+
 }
 
 /* Мобильная версия 320-360px */
@@ -483,6 +591,7 @@ line-height: 19px;
     right: -6%;
     top: 7%;
   }
+
 
     /* Error500 */
   .error500__image{
@@ -530,16 +639,65 @@ line-height: 19px;
     margin-bottom: 52px;
   }
 
+  .error404__content .bg-gray-rectangle {
+    top: 190px;
+    width: 100%;
+    height: 300px;
+  }
 
-.error404__content .bg-gray-rectangle {
-  top: 190px;
-  width: 100%;
-  height: 300px;
-}
+  .error404__message-block {
+    margin-left: 36px;
+  }
 
-.error404__message-block {
-  margin-left: 36px;
-}
+  /* Accepted (приняли заявку) */
+  .accepted .bg-gray-rectangle{
+    display: block;
+    width: 284px;
+    height: 228px;
+    top: 120px;
+  }
+
+  .accepted__image{
+    margin: 155px auto 50px;
+  }
+
+  .accepted__message-block{
+    position: relative;
+    left: 36px;
+    top: 0;
+    margin-bottom: 68px;
+    max-width: 235px;
+  }
+
+  .accepted__message-block h1{
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .accepted__message-block p{
+    font-size: 16px;
+    line-height: 18px;
+    color: #120C5A;
+  }
+
+  .accepted__message-block .message-block__title{
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  .accepted__message-block .message-block__description{
+    margin-bottom: 30px;
+  }
+
+  .accepted__button{
+    width: 275px;
+    position: relative;
+    left: -38px;
+  }
+  .accepted__button button{
+    width: 275px;
+  }
+
 
 }
 

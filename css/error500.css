@@ -37,6 +37,7 @@
 
 .error500__image img, .error404__image img{
   width: 100%;
+  max-width: 763px;
 }
 
 .error500__message-block, .error404__message-block{
