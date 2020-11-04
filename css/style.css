@@ -746,6 +746,9 @@ line-height: 19px;
 }
 
 /* Validate form */
+.form-container{
+   max-width: 435px;
+}
 .form-close{
   position: absolute;
   right: 16px;
@@ -766,7 +769,6 @@ line-height: 19px;
 
 .validate-form{
   z-index: 150;
-  width: 532px;
   background-color: #fff;
   position: fixed;
   top: 20%;
@@ -817,8 +819,7 @@ line-height: 19px;
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
-  width: 435px;
-  
+  width: calc(100% - 32px); 
 }
 
 .validate-form__checkbox{

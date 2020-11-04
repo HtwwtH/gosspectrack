@@ -556,8 +556,73 @@ line-height: 19px;
     height: 120%;
 }
 
+/* Validate form */
+  .form-container{
+    max-width: 280px;
+  }
 
+  .form-close{
+    position: absolute;
+    right: 16px;
+    top: 16px;
+  }
 
+  .validate-form{
+    max-width: 320px;
+    position: fixed;
+    top: 0;
+    left: calc(50% - 160px);
+    padding: 87px 20px 0 20px;
+  }
+
+  .validate-form h1{
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .validate-form h2{
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .validate-form p{
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .validate-form__field{
+    height: 100px;
+    margin-bottom: 16px;
+  }
+
+  .validate-form__title{
+    margin-bottom: 34px;
+    height: 44px;
+  }
+
+  .validate-form__subtitle{
+    margin-bottom: 5px;
+  }
+
+  .field{
+    width: calc(100% - 32px); 
+  }
+
+  .validate-form__checkbox{
+    margin-bottom: 60px;
+  }
+
+  .validate-form__checkbox .checkbox{
+    margin-right: 8px;
+  }
+
+  .validate-form__button{
+    width: 100%;
+  }
+
+  .validate-form__button button{
+    width: 100%;
+  }
 }
 
 /* Мобильная версия 320-360px */
@@ -697,9 +762,8 @@ line-height: 19px;
   .accepted__button button{
     width: 275px;
   }
-
-
 }
+
 
 
 
