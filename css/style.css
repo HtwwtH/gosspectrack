@@ -42,6 +42,11 @@ a{
   cursor: pointer;
 }
 
+mark{
+  background-color: #fff;
+  color: #FC0000;
+}
+
 /* Custom scrollbar */
 /* width */
 ::-webkit-scrollbar {
@@ -661,6 +666,7 @@ line-height: 19px;
   background-color: #F5F5F5;
   padding: 24px;
   transition: 400ms;
+  z-index: 999;
 }
 
 .cookies_active{
@@ -737,4 +743,104 @@ line-height: 19px;
 }
 .accepted__button button{
   width: 289px;
+}
+
+/* Validate form */
+.form-close{
+  position: absolute;
+  right: 16px;
+  top: 16px;
+}
+
+.fade:before{
+  content: '';
+	background: #000;
+	position: fixed; 
+	left: 0;
+	top: 0;
+	width: 100%; 
+	height: 100%;
+	opacity: 0.5;
+	z-index: 100;
+}
+
+.validate-form{
+  z-index: 150;
+  width: 532px;
+  background-color: #fff;
+  position: fixed;
+  top: 20%;
+  left: calc(50% - 266px);
+  padding: 50px
+}
+
+.validate-form h1{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  color: #120C5A;
+}
+
+.validate-form h2{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #120C5A;
+}
+
+.validate-form p{
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.validate-form__field{
+  height: 100px;
+  margin-bottom: 16px;
+}
+
+.validate-form__title{
+  margin-bottom: 27px;
+  height: 72px;
+}
+
+.validate-form__subtitle{
+  margin-bottom: 9px;
+}
+
+.field{
+  border: 1px solid #120C5A;
+  border-radius: 2px;
+  padding: 16px;
+  color: #929496;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  width: 435px;
+  
+}
+
+.validate-form__checkbox{
+  display: flex;
+  margin-bottom: 44px;
+}
+
+.validate-form__checkbox .checkbox{
+  width: 18px;
+  height: 18px;
+  margin-right: 16px;
+}
+
+.validate-form__checkbox a{
+  text-decoration: underline;
+}
+
+.validate-form__button{
+  width: 285px;
+  margin: 0 auto;
+}
+
+.validate-form__button button{
+  width: 100%;
 }
